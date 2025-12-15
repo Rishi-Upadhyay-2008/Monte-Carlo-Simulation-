@@ -43,7 +43,7 @@ def bettor_1(capital, Amount_Wagered, Wager_Count):
 
 x = 0
 
-while x < 10:
+while x < 1000:
   bettor_1(100000,1000,100)
   x+=1
 

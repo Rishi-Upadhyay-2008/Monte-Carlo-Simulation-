@@ -2,16 +2,20 @@ import random
 import matplotlib
 import matplotlib.pyplot as plt
 
+
+# Def rolldice is there basis and is the main thing the bettor is well betting on 
+
+
 def rollDice():
-  roll = random.randint(1,100)
+  roll = random.randint(1,100) # As shown when rolled it picks a number between 1 and 100
   if roll==100:
-    #print (roll,"You rolled a 100, You lose")
-    return False
+    #print (roll,"You rolled a 100, You lose") << For debugging purposes
+    return False 
   elif roll<=50:
-    #print (roll,"You rolled between 1-5, You lose")
+    #print (roll,"You rolled between 1-5, You lose") << same applies here
     return False
   elif 100>roll>50:
-    #print (roll,"You rolled between 51-99, You win")
+    #print (roll,"You rolled between 51-99, You win") << and here 
     return True
 
 
@@ -38,7 +42,7 @@ def bettor_1(capital, Amount_Wagered, Wager_Count):
 
   if value <= 0:
     value = 'brokie',value
-  #print ("Capital Earned :", value)
+  #print ("Capital Earned :", value) << once again
   plt.plot(Wx,Vy)
 
 x = 0

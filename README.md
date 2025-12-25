@@ -1,1 +1,4 @@
-This project was a fun task i took on to improve my skills at python allowing me to progress to other harder concepts this code specifically was my first ever monte carlo simulation, and i am hoping to create more like this but relating more to actual world situations.
+Depicts gamblers fallacy, represetned by the 51% to 49% odds on each roll of dice. 
+SimulationV1 is the normal code for the system 
+And Monte_Carlo_Simulation_Dice_Randomisation.ipynb is the output of the code 
+Monte Carlo Sims are one of the coolest things to create and have such interesting visuals
